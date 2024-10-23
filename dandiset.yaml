@@ -10,8 +10,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Chollet, Etienne (2023) UNet Validation Data (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000722/draft
+citation: Chollet, Etienne (2024) sOCT Vessel Segmentation Validation Data (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000722/draft
 contributor:
 - affiliation: []
   email: echollet@mgh.harvard.edu
@@ -25,18 +25,23 @@ description: _
 ethicsApproval: []
 id: DANDI:000722/draft
 identifier: DANDI:000722
-keywords: []
+keywords:
+- Optical Coherence Tomography
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000722/versions/draft/assets/
-name: UNet Validation Data
-protocol: []
+name: sOCT Vessel Segmentation Validation Data
+protocol:
+- https://github.com/EtienneChollet/oct_vesselseg
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-studyTarget: []
+studyTarget:
+- Human Brain
 url: https://dandiarchive.org/dandiset/000722/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- name: Unet validation data
+  schemaKey: Project
