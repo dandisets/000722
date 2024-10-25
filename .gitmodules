@@ -2,3 +2,15 @@
 	path = sub-I46/sub-I46_sample-somatosensory_chunk-02_OCT.ome.zarr
 	url = https://github.com/dandizarrs/2cac8df7-39d8-4d1f-bc7b-af06a336563f
 	datalad-id = 39347506-caf1-4b31-871e-70cd9a4b82f7
+[submodule "sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_OCT.ome.zarr"]
+	path = sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_OCT.ome.zarr
+	url = https://github.com/dandizarrs/2aedcf87-6903-4080-9ccc-c17f1f13bc82
+	datalad-id = f209bff6-a93e-44d6-b9ab-145d2aaff657
+[submodule "sub-I46/derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-vessels_mask.ome.zarr"]
+	path = sub-I46/derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-vessels_mask.ome.zarr
+	url = https://github.com/dandizarrs/14f5bc27-1e11-4ad7-ad72-e041d60e7851
+	datalad-id = 2d449d2f-9519-4ba9-82ea-b31567512ae8
+[submodule "sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_OCT.ome.zarr"]
+	path = sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_OCT.ome.zarr
+	url = https://github.com/dandizarrs/acffe53b-4849-4cc2-a01d-06e424896745
+	datalad-id = a076dc3a-e23e-473b-9fc0-4ad40eef3687

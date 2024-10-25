@@ -7,9 +7,16 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard: []
+  measurementTechnique: []
+  numberOfBytes: 106751257
+  numberOfFiles: 1
+  numberOfSamples: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Chollet, Etienne (2024) sOCT Vessel Segmentation Validation Data (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000722/draft
 contributor:
