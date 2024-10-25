@@ -1,7 +1,3 @@
-[submodule "sub-I46/sub-I46_sample-somatosensory_chunk-02_OCT.ome.zarr"]
-	path = sub-I46/sub-I46_sample-somatosensory_chunk-02_OCT.ome.zarr
-	url = https://github.com/dandizarrs/2cac8df7-39d8-4d1f-bc7b-af06a336563f
-	datalad-id = 39347506-caf1-4b31-871e-70cd9a4b82f7
 [submodule "sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_OCT.ome.zarr"]
 	path = sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_OCT.ome.zarr
 	url = https://github.com/dandizarrs/2aedcf87-6903-4080-9ccc-c17f1f13bc82
