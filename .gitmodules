@@ -22,3 +22,11 @@
 	path = derivatives/predictions/sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_label-vessels_probseg.ome.zarr
 	url = https://github.com/dandizarrs/99da94d2-1cd8-4efc-a9c1-19c4267315fe
 	datalad-id = 03594b9e-8870-44ab-8d0d-2e01644eafe5
+[submodule "derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_label-vessels_mask.ome.zarr"]
+	path = derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_label-vessels_mask.ome.zarr
+	url = https://github.com/dandizarrs/c5e65f3d-27b8-4d62-b54d-fc0c0e5c6ca8
+	datalad-id = 6ea69003-3377-464e-a1e2-4b0e534223d2
+[submodule "derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-tissue_mask.ome.zarr"]
+	path = derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-tissue_mask.ome.zarr
+	url = https://github.com/dandizarrs/89663cb1-1526-49fa-b7ec-5de02f9e3adb
+	datalad-id = c816225f-09f5-4bfa-aa9d-553315206cdf
