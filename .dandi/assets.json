@@ -20,7 +20,7 @@
 "blobDateModified":
 "2024-10-25T14:43:49.467714-04:00",
 "contentSize":
-0,
+35689958,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/53094298-7ed3-4d77-81b2-ac14a27599ad/download/",
@@ -31,7 +31,7 @@
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"c6fe1f60f2142a904f5e9cc777e05c32-6601--35689958"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -83,7 +83,7 @@ null
 "path":
 "derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-vessels_mask.ome.zarr",
 "size":
-0,
+35689958,
 "zarr":
 "f67edcaf-9d16-4720-9aab-0af1c9de505c"
 },
@@ -108,7 +108,7 @@ null
 "blobDateModified":
 "2024-10-25T16:13:52.407127-04:00",
 "contentSize":
-0,
+35232696,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/570bbf69-0259-4ed9-8ba7-9536a596105b/download/",
@@ -119,7 +119,7 @@ null
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"12749d4c4d61affc625594bb31fb3ce5-6601--35232696"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -171,7 +171,7 @@ null
 "path":
 "derivatives/predictions/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-vessels_mask.ome.zarr",
 "size":
-0,
+35232696,
 "zarr":
 "c7913931-1ff7-4fe8-a86d-92b31947cb31"
 },
@@ -196,7 +196,7 @@ null
 "blobDateModified":
 "2024-10-25T16:20:30.571764-04:00",
 "contentSize":
-0,
+5655289800,
 "contentUrl":
 [
 "https://api.dandiarchive.org/api/assets/36ebe231-13e1-42cd-988e-75fd2f68b954/download/",
@@ -207,7 +207,7 @@ null
 "digest":
 {
 "dandi:dandi-zarr-checksum":
-null
+"6bfd54472357b265b368ace3f6c38fe2-6601--5655289800"
 },
 "encodingFormat":
 "application/x-zarr",
@@ -259,7 +259,7 @@ null
 "path":
 "derivatives/predictions/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-vessels_probseg.ome.zarr",
 "size":
-0,
+5655289800,
 "zarr":
 "e324c757-31b3-4ec6-a7e6-25f133420632"
 },
