@@ -2,36 +2,106 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000722
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
-about: []
+about:
+- identifier: UBERON:0008930
+  name: Somatosensory Cortex
+  schemaKey: Anatomy
+- identifier: UBERON:0000955
+  name: Brain
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard: []
+  measurementTechnique: []
+  numberOfBytes: 10391537803
+  numberOfFiles: 8
+  numberOfSamples: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Chollet, Etienne (2024) sOCT Vessel Segmentation Validation Data (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000722/draft
+  species: []
+  variableMeasured: []
+citation: Chollet, Etienne; Yaël Balbastre; Mauri, Chiara; Magnain, Caroline; Fischl,
+  Bruce; Wang, Hui (2024) sOCT of the Human Somatosensory Cortex and Vessel Segmentation
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000722/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: Massachussets General Hospital
+    schemaKey: Affiliation
   email: echollet@mgh.harvard.edu
   includeInCitation: true
   name: Chollet, Etienne
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: NIF\R1\232460
+  email: y.balbastre@ucl.ac.uk
+  identifier: 0000-0001-8758-9978
+  includeInCitation: true
+  name: Yaël Balbastre
+  schemaKey: Person
+- includeInCitation: true
+  name: Mauri, Chiara
+  schemaKey: Person
+- awardNumber: CZI (2019- 198101, 2021-244261)
+  includeInCitation: true
+  name: Magnain, Caroline
+  schemaKey: Person
+- includeInCitation: true
+  name: Fischl, Bruce
+  schemaKey: Person
+- includeInCitation: true
+  name: Wang, Hui
   schemaKey: Person
 dateCreated: '2023-12-04T23:33:28.541355+00:00'
-description: _
+description: 'This dataset contains a 3.4 x 2.9 x 1.1 cm block of Human somatosensory
+  cortex imaged by Serial-sectionning Optical Coherence Tomography (sOCT) at 20 µm
+  isotropic resolution. Vessels in a 6 x 6 x 6 mm region of interest (ROI) were manually
+  labeled and used to validate a machine-learning segmentation method.The output of
+  the automatic segmentation method are also provided, both for the small ROI and
+  large block.
+
+
+  In details, the dataset contains:
+
+
+  - `sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_OCT.ome.zarr` - Image of the
+  full block of tissue
+
+  - `sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_OCT.ome.zarr` - Image of the
+  smaller region of interest
+
+  - `derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-tissue_mask.ome.zarr`
+  - Manually labeled tissue
+
+  - `derivatives/annotations/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-vessels_mask.ome.zarr`
+  - Manually labeled vessels
+
+  - `derivatives/predictions/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-vessels_mask.ome.zarr`
+  - Vessel maximum-likelihood map (large block)
+
+  - `derivatives/predictions/sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_label-vessels_mask.ome.zarr`
+  - Vessel maximum-likelihood map (small block)
+
+  - `derivatives/predictions/sub-I46/micr/sub-I46_sample-somatosensory_chunk-01_label-vessels_probseg.ome.zarr`
+  - Vessel probability map (large block)
+
+  - `derivatives/predictions/sub-I46/micr/sub-I46_sample-somatosensory_chunk-02_label-vessels_probseg.ome.zarr`
+  - Vessel probability map (small block)'
 ethicsApproval: []
 id: DANDI:000722/draft
 identifier: DANDI:000722
 keywords:
 - Optical Coherence Tomography
+- Vasculature
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000722/versions/draft/assets/
-name: sOCT Vessel Segmentation Validation Data
+name: sOCT of the Human Somatosensory Cortex and Vessel Segmentation
 protocol:
 - https://github.com/EtienneChollet/oct_vesselseg
 relatedResource: []
