@@ -31,6 +31,7 @@ contributor:
   - name: Massachussets General Hospital
     schemaKey: Affiliation
   email: echollet@mgh.harvard.edu
+  identifier: 0009-0006-4730-525X
   includeInCitation: true
   name: Chollet, Etienne
   roleName:
