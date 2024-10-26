@@ -13,16 +13,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard: []
-  measurementTechnique: []
-  numberOfBytes: 10391537803
-  numberOfFiles: 8
-  numberOfSamples: 1
-  numberOfSubjects: 1
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species: []
-  variableMeasured: []
 citation: Chollet, Etienne; Yaël Balbastre; Mauri, Chiara; Magnain, Caroline; Fischl,
   Bruce; Wang, Hui (2024) sOCT of the Human Somatosensory Cortex and Vessel Segmentation
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000722/draft
